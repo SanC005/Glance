@@ -1,3 +1,4 @@
+
 import Navbar from "@/Components/Navbar/navBar"
 import Row from "@/Components/Row/row"
 export default function Home() {
