@@ -1,3 +1,4 @@
+
 import Navbar from "@/Components/Navbar/navBar"
 import Box from "@/Components/Box/box"
 import Row from "@/Components/Row/row"
