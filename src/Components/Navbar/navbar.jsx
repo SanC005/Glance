@@ -1,8 +1,20 @@
-import NavItem from "../NavItem/navitem"
+import NavItem from "../NavItem/navItem"
+import Image from "next/image";
+import Logo from "../../assets/pixel_bg.png";
+
 export default function Navbar(){
     return(
-        <div className="flex h-12 w-full bg-black">
-            <NavItem />
+        <div className="flex flex-row justify-between content-center w-full bg-indigo-500 border-solid border-0 border-indigo-800">
+            <div>
+                <Image src={Logo} width="100" alt="logo"/>
+            </div>
+            <div className="flex flex-row justify-between content-center w-1/2 items-center ">
+                <NavItem text="Home" route={"/"}/> 
+                <NavItem text="Bookmarks" route={"bookmarks"}/>
+                <NavItem text="About" route={"about"}/>
+                <NavItem text="Contact" route={"contact"}/>
+            </div>
         </div>
+        
     )
 }
