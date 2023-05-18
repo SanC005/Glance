@@ -1,0 +1,5 @@
+const products = [
+    {id: 1, name: 'Shoes', description: 'Running Shoes.' },
+    {id: 2, name: 'MacBook', description: 'Apple MacBook.' },
+];
+export default products;
