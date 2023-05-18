@@ -4,7 +4,7 @@ import Logo from "../../assets/pixel_bg.png";
 
 export default function Navbar(){
     return(
-        <div className="flex flex-row justify-between content-center w-full bg-black">
+        <div className="flex flex-row justify-between content-center w-full bg-indigo-500 border-solid border-0 border-indigo-800">
             <div>
                 <Image src={Logo} width="100" alt="logo"/>
             </div>
