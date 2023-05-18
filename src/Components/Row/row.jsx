@@ -22,12 +22,12 @@ export default function Row() {
 
   return (
     
-    <div className="h-96">
+    <div className="w-full p-5">
       <div className="text-left py-5 text-3xl font-bold">
         Twitter
       </div>
-      <div className="flex fixed flex-row overflow-x-scroll">
-        <ul>{listItems}</ul>
+      <div className="flex flex-row flex-nowrap overflow-x-auto">
+        <ul className="flex flex-row">{listItems}</ul>
       </div>
     </div>
   );

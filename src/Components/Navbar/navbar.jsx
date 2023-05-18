@@ -8,7 +8,7 @@ export default function Navbar(){
             <div className="flex">
                 <Image src={Logo} width="100" alt="logo"/>
             </div>
-            <div className="flex flex-row justify-between content-center w-1/2 items-center ">
+            <div className="flex flex-row justify-between content-center w-1/2 items-center">
                 <NavItem text="Home" route={"/"}/> 
                 <NavItem text="Bookmarks" route={"bookmarks"}/>
                 <NavItem text="About" route={"about"}/>
