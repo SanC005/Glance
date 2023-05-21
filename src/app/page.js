@@ -10,10 +10,10 @@ export default function Home() {
     <main className="flex flex-col items-center">
      <Navbar />
      <Location />
-      <Row />
-      <Row />
-      <Row />
       <RedditRow />
+      <Row />
+      <Row />
+      <Row />
     </main>
   )
 }
