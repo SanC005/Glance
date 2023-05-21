@@ -2,6 +2,7 @@
 import Navbar from "@/Components/Navbar/navBar"
 import Row from "@/Components/Row/row"
 import Location from "@/Components/Location/Location"
+import RedditRow from "@/api/reddit/redditdata"
 export default function Home() {
   
   
@@ -12,6 +13,7 @@ export default function Home() {
       <Row />
       <Row />
       <Row />
+      <RedditRow />
     </main>
   )
 }
