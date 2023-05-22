@@ -1,12 +1,14 @@
 
-export default function Box({data}){
-    // const item = props.
+export default function Box(props){
+
+    const {data,prim_color,sec_color} = props;
+    // console.log(prim_color,sec_color);
     return(
-        <div className="w-64 h-64 bg-blue-300 mx-4 my-8 overflow-hidden text-ellipsis">
-            <div className="text-center align-middle p-2 bg-blue-400">
+        <div style={{backgroundColor:sec_color,color:prim_color}} className="w-64 h-64 mx-4 my-8 overflow-hidden text-ellipsis rounded-2xl">
+            <div className="text-center align-middle p-2">
                 {data.title}
             </div>
-            <div className="text-center align-middle p-5 flex-nowrap">
+            <div style={{backgroundColor:prim_color,color:sec_color}}className="text-center align-middle p-5 flex-nowrap h-full">
                 {data.body}
                 
             </div>

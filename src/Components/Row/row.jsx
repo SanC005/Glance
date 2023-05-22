@@ -21,7 +21,7 @@ export default async function Row() {
 
 
 const data = await getData();
-const boxes = data.map(post => <li key={post.id}><Box data={post}/></li>)
+const boxes = data.map(post => <li key={post.id}><Box prim_color="blue" sec_color="lightblue" data={post}/></li>)
 
 
 return (

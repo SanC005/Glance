@@ -16,8 +16,10 @@ export default async function RedditRow() {
     // const post = dataItem.data.children[0].data.subreddit;
     const TopPosts = dataItem.data.children;
     // console.log(TopPosts);
-    const boxes = TopPosts.map(topPost => 
-        <li key={topPost.data.ups}><Box data={{title:topPost.data.subreddit, body: topPost.data.title}} /></li>
+
+    const boxes = TopPosts.map(topPost =>
+       <li key={2}><Box prim_color="#ff4500" sec_color="black" data={{title:topPost.data.subreddit, body: topPost.data.title}} /></li>
+      //<li key={2}>hey</li>
     )
     return (
 
@@ -27,7 +29,7 @@ export default async function RedditRow() {
           </div>
       
           <div className="flex flex-row flex-nowrap overflow-x-auto">
-      
+
             <ul className="flex flex-row">{boxes}</ul>
           </div>
         </div>
