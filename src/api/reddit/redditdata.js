@@ -18,7 +18,7 @@ export default async function RedditRow() {
     // console.log(TopPosts);
 
     const boxes = TopPosts.map(topPost =>
-       <li key={2}><Box prim_color="#ff4500" sec_color="black" data={{title:topPost.data.subreddit, body: topPost.data.title}} /></li>
+       <li key={2}><Box prim_color="#ff4500" sec_color="black" text_color="white" data={{title:topPost.data.subreddit, body: topPost.data.title}} /></li>
       //<li key={2}>hey</li>
     )
     return (
