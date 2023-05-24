@@ -1,6 +1,5 @@
 import Box from "@/Components/Box/box";
 
-// import Box from "@/Components/Box/box";
 async function getData() {
     const API_KEY = 'AIzaSyB1w2oJIUHWK_ayrflbL0vPxmVPeJxPD-4';
     const response = await fetch('https://www.googleapis.com/youtube/v3/videos?key='+API_KEY+'&part=snippet&chart=mostPopular&maxResults=15');

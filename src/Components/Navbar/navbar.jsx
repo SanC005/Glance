@@ -10,7 +10,7 @@ export default function Navbar(){
             </div>
             <div className="flex flex-row justify-between content-center w-1/2 items-center">
                 <NavItem text="Home" route={"/"}/> 
-                <NavItem text="Bookmarks" route={"bookmarks"}/>
+                <NavItem text="Bookmarks" route={"Components/Bookmark"}/>
                 <NavItem text="About" route={"about"}/>
                 <NavItem text="Contact" route={"contact"}/>
             </div>
